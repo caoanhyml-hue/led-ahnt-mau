@@ -1,0 +1,3205 @@
+[
+ {
+  "id": "on-tet-01",
+  "name": "Tết 01 · CHÚC MỪNG NĂM MỚI",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "CHÚC MỪNG NĂM MỚI"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "An khang - Thịnh vượng"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "LÌ XÌ 10%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFC400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5A0000"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "hoaVan",
+    "particle": "mai",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "TẾT",
+    "icon": "mai",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-tet-02",
+  "name": "Tết 02 · KHAI XUÂN ĐẠI LỢI",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "KHAI XUÂN ĐẠI LỢI"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Giảm giá đón Tết"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "SALE 30%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Mở cửa từ mùng 2 - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF3B30"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#7A0A0A"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "sunburst",
+    "particle": "lixi",
+    "border": "chasingMarquee",
+    "layout": "priceHero",
+    "kinetic": "stampHit",
+    "subKinetic": "slideLeft",
+    "accent": "phaoDay",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "tag",
+    "badge": "XUÂN",
+    "icon": "coin",
+    "font": "Anton",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-tet-03",
+  "name": "Tết 03 · VẠN SỰ NHƯ Ý",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "VẠN SỰ NHƯ Ý"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Xuân sang - Lộc đến"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "MUA 1 TẶNG 1"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Áp dụng đến hết mùng 10 Tết"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFC400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5A0000"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "velvetWave",
+    "particle": "dao",
+    "border": "thinDouble",
+    "layout": "centerFrame",
+    "kinetic": "riseFade",
+    "subKinetic": "blurIn",
+    "accent": "maiBranch",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "2027",
+    "icon": "mai",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-tet-04",
+  "name": "Tết 04 · TẾT SUM VẦY",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "TẾT SUM VẦY"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Nhận đặt mâm cỗ, giỏ quà Tết"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "FREESHIP"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Đặt hàng: 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF3B30"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#7A0A0A"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "hoaVan",
+    "particle": "fireworks",
+    "border": "studdedFrame",
+    "layout": "splitLeft",
+    "kinetic": "dropBounce",
+    "subKinetic": "trackingIn",
+    "accent": "iconCorner",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "hex",
+    "badge": "QUÀ",
+    "icon": "lixi",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-tet-05",
+  "name": "Tết 05 · MỪNG XUÂN 2027",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "MỪNG XUÂN 2027"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Mở cửa xuyên Tết"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFC400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5A0000"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "starfield",
+    "particle": "fireworks",
+    "border": "dualNeonPulse",
+    "layout": "topHero",
+    "kinetic": "shimmerPulse",
+    "subKinetic": "riseFade",
+    "accent": "linhVat",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "HOT",
+    "icon": "star",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-tet-06",
+  "name": "Tết 06 · XUÂN ĐINH MÙI",
+  "category": "Tết",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "XUÂN ĐINH MÙI 2027"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Dê vàng mang lộc đến nhà"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "LỘC 10%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFC400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5A0000"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "hoaVan",
+    "particle": "mai",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "linhVat",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "MÙI",
+    "icon": "de",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-01",
+  "name": "Giáng sinh 01 · MERRY CHRISTMAS",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Merry Christmas"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Giáng sinh an lành"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 25%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFE9EC"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footColor": "#B3121B",
+    "bg": "redSnow",
+    "particle": "flakes",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "village",
+    "textFx": "cleanBright",
+    "subFx": "cleanBright",
+    "promoShape": "pill",
+    "badge": "NOEL",
+    "icon": "thong",
+    "font": "SVN-Dancing script",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-02",
+  "name": "Giáng sinh 02 · NOEL RỘN RÀNG",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "NOEL RỘN RÀNG"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Quà tặng cho mọi đơn hàng"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "TẶNG QUÀ"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Từ 20 - 25/12 - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#E3121B"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1E3F"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footColor": "#0B1E3F",
+    "bg": "snowNight",
+    "particle": "flakes",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "baubles",
+    "textFx": "goldMetal",
+    "subFx": "cleanBright",
+    "promoShape": "tag",
+    "badge": "NOEL",
+    "icon": "gift",
+    "font": "Playfair Display",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-03",
+  "name": "Giáng sinh 03 · GIÁNG SINH ẤM ÁP",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Giáng Sinh Ấm Áp"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Nhận đặt tiệc Noel"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "COMBO 299K"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Đặt bàn: 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFF5D6"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#2ECC71"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0E3B22"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "velvetWave",
+    "particle": "flakes",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "blurIn",
+    "subKinetic": "riseFade",
+    "accent": "pineCorners",
+    "textFx": "goldMetal",
+    "subFx": "cleanBright",
+    "promoShape": "bar",
+    "badge": "TIỆC",
+    "icon": "cake",
+    "font": "SVN-Dancing script",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-04",
+  "name": "Giáng sinh 04 · SALE GIÁNG SINH",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "SALE GIÁNG SINH"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Duy nhất 24 - 25/12"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "-50%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFE9EC"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "redSnow",
+    "particle": "flakes",
+    "border": "rainbowChase",
+    "layout": "topHero",
+    "kinetic": "stampHit",
+    "subKinetic": "trackingIn",
+    "accent": "baubles",
+    "textFx": "heavyStroke",
+    "subFx": "cleanBright",
+    "promoShape": "burst",
+    "badge": "SALE",
+    "icon": "percent",
+    "font": "Anton",
+    "font2": "Barlow Condensed",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-05",
+  "name": "Giáng sinh 05 · HAPPY NEW YEAR",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Happy New Year"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Chào năm mới 2027"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "ƯU ĐÃI 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#E3121B"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1E3F"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "bg": "starfield",
+    "particle": "fireworks",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "twinSparkle",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "2027",
+    "icon": "star",
+    "font": "SVN-Bali Script",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-noel-06",
+  "name": "Giáng sinh 06 · ĐÊM NOEL",
+  "category": "Giáng sinh",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Merry Christmas"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Chúc mừng Giáng sinh"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "ƯU ĐÃI 30%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFE9EC"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footColor": "#FFFFFF",
+    "bg": "redSnow",
+    "particle": "flakes",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "xmasTrees",
+    "textFx": "cleanBright",
+    "subFx": "cleanBright",
+    "promoShape": "pill",
+    "badge": "NOEL",
+    "icon": "thong",
+    "font": "SVN-Bali Script",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-01",
+  "name": "Trung thu 01 · TRUNG THU ĐOÀN VIÊN",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "TRUNG THU ĐOÀN VIÊN"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Trăng tròn - Sum vầy"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 15%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "starfield",
+    "particle": "stardust",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "RẰM",
+    "icon": "lantern",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-02",
+  "name": "Trung thu 02 · BÁNH TRUNG THU",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "BÁNH TRUNG THU"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Nhận đặt bánh nướng - bánh dẻo"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "MUA 4 TẶNG 1"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Tiệm bánh ABC - Đặt bánh: 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFB300"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5C1A00"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "goldBokeh",
+    "particle": "sparks",
+    "border": "studdedFrame",
+    "layout": "priceHero",
+    "kinetic": "stampHit",
+    "subKinetic": "slideLeft",
+    "accent": "lanterns",
+    "textFx": "heavyStroke",
+    "subFx": "goldMetal",
+    "promoShape": "tag",
+    "badge": "HOT",
+    "icon": "cake",
+    "font": "Anton",
+    "font2": "Be Vietnam Pro",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-03",
+  "name": "Trung thu 03 · VUI TẾT TRUNG THU",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Vui Tết Trung Thu"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Rước đèn - Phá cỗ đêm rằm"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "QUÀ CHO BÉ"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Shop đồ chơi ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE6A0"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF9F1C"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#2A0E4A"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "cloudGlow",
+    "particle": "stardust",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "cleanBright",
+    "promoShape": "pill",
+    "badge": "BÉ",
+    "icon": "teddy",
+    "font": "SVN-Dancing script",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-04",
+  "name": "Trung thu 04 · HỘP QUÀ TRUNG THU",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "HỘP QUÀ TRUNG THU"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Quà biếu sang trọng - in logo theo yêu cầu"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "TỪ 399K"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Quà tặng ABC - Đặt quà: 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "moodySmoke",
+    "particle": "dust",
+    "border": "goldShimmer",
+    "layout": "centerFrame",
+    "kinetic": "blurIn",
+    "subKinetic": "trackingIn",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "bar",
+    "badge": "QUÀ",
+    "icon": "gift",
+    "font": "Playfair Display",
+    "font2": "Be Vietnam Pro",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-05",
+  "name": "Trung thu 05 · RẰM THÁNG TÁM",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "RẰM THÁNG TÁM"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Trăng sáng - Đèn hồng"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE6A0"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF9F1C"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#2A0E4A"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "ringsPulse",
+    "particle": "stardust",
+    "border": "dualNeonPulse",
+    "layout": "topHero",
+    "kinetic": "shimmerPulse",
+    "subKinetic": "riseFade",
+    "accent": "lanterns",
+    "textFx": "neonGlow",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "15/8",
+    "icon": "lantern",
+    "font": "Montserrat",
+    "font2": "Be Vietnam Pro",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-06",
+  "name": "Trung thu 06 · TRUNG THU AN LÀNH",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Trung Thu An Lành"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Chúc gia đình sum họp, ấm no"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "ƯU ĐÃI 10%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "starfield",
+    "particle": "stardust",
+    "border": "cornerBrackets",
+    "layout": "centerFrame",
+    "kinetic": "riseFade",
+    "subKinetic": "blurIn",
+    "accent": "twinSparkle",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "RẰM",
+    "icon": "star",
+    "font": "SVN-Bali Script",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-07",
+  "name": "Trung thu 07 · SALE TRUNG THU",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "SALE TRUNG THU"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Duy nhất đêm rằm"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "-30%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Siêu thị ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFB300"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5C1A00"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "sunburst",
+    "particle": "confetti",
+    "border": "chasingMarquee",
+    "layout": "topHero",
+    "kinetic": "stampHit",
+    "subKinetic": "trackingIn",
+    "accent": "lanterns",
+    "textFx": "heavyStroke",
+    "subFx": "cleanBright",
+    "promoShape": "burst",
+    "badge": "SALE",
+    "icon": "percent",
+    "font": "Anton",
+    "font2": "Barlow Condensed",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-08",
+  "name": "Trung thu 08 · ĐÊM HỘI TRĂNG RẰM",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "ĐÊM HỘI TRĂNG RẰM"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Văn nghệ - Múa lân - Phát quà"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "VÀO CỬA FREE"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Nhà văn hoá khu phố - Tối 15/8 - Sân chính"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE6A0"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF9F1C"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#2A0E4A"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "spotlights",
+    "particle": "fireworks",
+    "border": "rainbowChase",
+    "layout": "centerStack",
+    "kinetic": "waveBounce",
+    "subKinetic": "riseFade",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "cleanBright",
+    "promoShape": "tag",
+    "badge": "LÂN",
+    "icon": "music",
+    "font": "Anton",
+    "font2": "Montserrat",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-09",
+  "name": "Trung thu 09 · BÁNH NƯỚNG BÁNH DẺO",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "BÁNH NƯỚNG - BÁNH DẺO"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Thập cẩm, đậu xanh, sen nhuyễn"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "CHỈ 59K"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Tiệm bánh ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFB300"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#5C1A00"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "hoaVan",
+    "particle": "dust",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "slideRight",
+    "accent": "lanterns",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "hex",
+    "badge": "NGON",
+    "icon": "cake",
+    "font": "Playfair Display",
+    "font2": "Be Vietnam Pro",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-10",
+  "name": "Trung thu 10 · MID-AUTUMN FESTIVAL",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Mid-Autumn Festival"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Trung thu yêu thương"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 25%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "goldBokeh",
+    "particle": "stardust",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "twinSparkle",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "RẰM",
+    "icon": "lantern",
+    "font": "SVN-Dancing script",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-thu-11",
+  "name": "Trung thu 11 · ĐÈN ÔNG SAO",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "RƯỚC ĐÈN ÔNG SAO"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Trung thu cho bé"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "TẶNG ĐÈN"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "goldBokeh",
+    "particle": "none",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "none",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "BÉ",
+    "icon": "star",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000,
+    "sprites": [
+     {
+      "place": "top2",
+      "anim": "swing",
+      "size": 0.42,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 260\"><defs><radialGradient id=\"g\" cx=\"50%\" cy=\"45%\" r=\"60%\"><stop offset=\"0\" stop-color=\"#FFE27A\"/><stop offset=\".55\" stop-color=\"#FF4A2E\"/><stop offset=\"1\" stop-color=\"#C0101A\"/></radialGradient></defs><path d=\"M100 0v40\" stroke=\"#8B5A2B\" stroke-width=\"5\"/><path d=\"M100 40 122 92 178 96 135 132 150 186 100 156 50 186 65 132 22 96 78 92Z\" fill=\"url(#g)\" stroke=\"#FFD34D\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M100 40v116M22 96l113 36M178 96 65 132M50 186l50-30 50 30\" stroke=\"#FFD34D\" stroke-width=\"2.5\" opacity=\".7\" fill=\"none\"/><circle cx=\"100\" cy=\"112\" r=\"14\" fill=\"#FFF3B0\" opacity=\".9\"/><path d=\"M50 186l-8 40M150 186l8 40\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M36 226h12l-6 30zM152 226h12l-6 30z\" fill=\"#E3121B\"/><path d=\"M100 156v30\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M93 186h14l-7 34z\" fill=\"#E3121B\"/></svg>"
+     },
+     {
+      "place": "scatter",
+      "anim": "twinkle",
+      "size": 0.07,
+      "count": 14,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><path d=\"M50 4 61 38 97 38 68 59 79 94 50 72 21 94 32 59 3 38 39 38Z\" fill=\"#FFE27A\" stroke=\"#FFFFFF\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+     },
+     {
+      "place": "rise",
+      "anim": "swing",
+      "size": 0.12,
+      "count": 5,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 260\"><defs><radialGradient id=\"g\" cx=\"50%\" cy=\"45%\" r=\"60%\"><stop offset=\"0\" stop-color=\"#FFE27A\"/><stop offset=\".55\" stop-color=\"#FF4A2E\"/><stop offset=\"1\" stop-color=\"#C0101A\"/></radialGradient></defs><path d=\"M100 0v40\" stroke=\"#8B5A2B\" stroke-width=\"5\"/><path d=\"M100 40 122 92 178 96 135 132 150 186 100 156 50 186 65 132 22 96 78 92Z\" fill=\"url(#g)\" stroke=\"#FFD34D\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M100 40v116M22 96l113 36M178 96 65 132M50 186l50-30 50 30\" stroke=\"#FFD34D\" stroke-width=\"2.5\" opacity=\".7\" fill=\"none\"/><circle cx=\"100\" cy=\"112\" r=\"14\" fill=\"#FFF3B0\" opacity=\".9\"/><path d=\"M50 186l-8 40M150 186l8 40\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M36 226h12l-6 30zM152 226h12l-6 30z\" fill=\"#E3121B\"/><path d=\"M100 156v30\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M93 186h14l-7 34z\" fill=\"#E3121B\"/></svg>"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "on-thu-12",
+  "name": "Trung thu 12 · ĐÊM TRĂNG RẰM",
+  "category": "Trung thu",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "ĐÊM TRĂNG RẰM"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Phá cỗ - Rước đèn"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFD34D"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFF1C9"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FF8A00"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#0B1440"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "goldBokeh",
+    "particle": "none",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "dropBounce",
+    "subKinetic": "riseFade",
+    "accent": "none",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "RẰM",
+    "icon": "star",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000,
+    "kineticData": {
+     "n": "Rơi xoay mờ",
+     "st": 55,
+     "d": 800,
+     "ease": "back",
+     "kf": [
+      {
+       "t": 0,
+       "y": -1.6,
+       "r": -0.8,
+       "a": 0,
+       "blur": 1
+      },
+      {
+       "t": 0.6,
+       "y": 0.1,
+       "r": 0.1,
+       "a": 1,
+       "blur": 0
+      },
+      {
+       "t": 1,
+       "y": 0,
+       "r": 0
+      }
+     ],
+     "idle": {
+      "type": "float",
+      "amp": 0.03
+     }
+    },
+    "subKineticData": {
+     "block": true,
+     "d": 700,
+     "ease": "out",
+     "kf": [
+      {
+       "t": 0,
+       "sx": 0.2,
+       "sy": 0.2,
+       "a": 0
+      },
+      {
+       "t": 1,
+       "sx": 1,
+       "sy": 1,
+       "a": 1
+      }
+     ]
+    },
+    "layoutData": {
+     "headline": [
+      0.08,
+      0.3,
+      0.84,
+      0.3
+     ],
+     "subheadline": [
+      0.15,
+      0.08,
+      0.7,
+      0.16
+     ],
+     "promoBadge": [
+      0.32,
+      0.64,
+      0.36,
+      0.14
+     ],
+     "footerContact": [
+      0.06,
+      0.84,
+      0.88,
+      0.09
+     ]
+    },
+    "bgData": {
+     "colors": [
+      "#0B1E3F",
+      "#3A1C71",
+      "#0B1E3F"
+     ],
+     "mode": "radial",
+     "speed": 3
+    },
+    "delays": {
+     "subheadline": 0,
+     "headline": 300,
+     "promoBadge": 1300
+    },
+    "sprites": [
+     {
+      "place": "top2",
+      "anim": "swing",
+      "size": 0.26,
+      "lottie": {
+       "v": "5.7.4",
+       "fr": 30,
+       "ip": 0,
+       "op": 60,
+       "w": 200,
+       "h": 200,
+       "nm": "sao-xoay",
+       "layers": [
+        {
+         "ty": 4,
+         "ind": 1,
+         "nm": "sao",
+         "ip": 0,
+         "op": 60,
+         "st": 0,
+         "ks": {
+          "o": {
+           "a": 0,
+           "k": 100
+          },
+          "r": {
+           "a": 1,
+           "k": [
+            {
+             "t": 0,
+             "s": [
+              0
+             ],
+             "i": {
+              "x": [
+               0.5
+              ],
+              "y": [
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5
+              ],
+              "y": [
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 60,
+             "s": [
+              360
+             ]
+            }
+           ]
+          },
+          "p": {
+           "a": 0,
+           "k": [
+            100,
+            100,
+            0
+           ]
+          },
+          "a": {
+           "a": 0,
+           "k": [
+            0,
+            0,
+            0
+           ]
+          },
+          "s": {
+           "a": 1,
+           "k": [
+            {
+             "t": 0,
+             "s": [
+              75,
+              75,
+              100
+             ],
+             "i": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 30,
+             "s": [
+              105,
+              105,
+              100
+             ],
+             "i": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 60,
+             "s": [
+              75,
+              75,
+              100
+             ]
+            }
+           ]
+          }
+         },
+         "shapes": [
+          {
+           "ty": "gr",
+           "nm": "g",
+           "it": [
+            {
+             "ty": "sr",
+             "sy": 1,
+             "d": 1,
+             "pt": {
+              "a": 0,
+              "k": 5
+             },
+             "p": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "r": {
+              "a": 0,
+              "k": 0
+             },
+             "ir": {
+              "a": 0,
+              "k": 32
+             },
+             "is": {
+              "a": 0,
+              "k": 0
+             },
+             "or": {
+              "a": 0,
+              "k": 80
+             },
+             "os": {
+              "a": 0,
+              "k": 0
+             }
+            },
+            {
+             "ty": "gf",
+             "o": {
+              "a": 0,
+              "k": 100
+             },
+             "r": 1,
+             "g": {
+              "p": 2,
+              "k": {
+               "a": 0,
+               "k": [
+                0,
+                1,
+                0.95,
+                0.6,
+                1,
+                1,
+                0.55,
+                0.1
+               ]
+              }
+             },
+             "s": {
+              "a": 0,
+              "k": [
+               0,
+               -60
+              ]
+             },
+             "e": {
+              "a": 0,
+              "k": [
+               0,
+               60
+              ]
+             },
+             "t": 1
+            },
+            {
+             "ty": "st",
+             "c": {
+              "a": 0,
+              "k": [
+               1,
+               1,
+               1,
+               1
+              ]
+             },
+             "o": {
+              "a": 0,
+              "k": 100
+             },
+             "w": {
+              "a": 0,
+              "k": 5
+             },
+             "lc": 2,
+             "lj": 2
+            },
+            {
+             "ty": "tr",
+             "p": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "a": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "s": {
+              "a": 0,
+              "k": [
+               100,
+               100
+              ]
+             },
+             "r": {
+              "a": 0,
+              "k": 0
+             },
+             "o": {
+              "a": 0,
+              "k": 100
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "place": "scatter",
+      "anim": "none",
+      "size": 0.08,
+      "count": 8,
+      "lottie": {
+       "v": "5.7.4",
+       "fr": 30,
+       "ip": 0,
+       "op": 60,
+       "w": 200,
+       "h": 200,
+       "nm": "sao-xoay",
+       "layers": [
+        {
+         "ty": 4,
+         "ind": 1,
+         "nm": "sao",
+         "ip": 0,
+         "op": 60,
+         "st": 0,
+         "ks": {
+          "o": {
+           "a": 0,
+           "k": 100
+          },
+          "r": {
+           "a": 1,
+           "k": [
+            {
+             "t": 0,
+             "s": [
+              0
+             ],
+             "i": {
+              "x": [
+               0.5
+              ],
+              "y": [
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5
+              ],
+              "y": [
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 60,
+             "s": [
+              360
+             ]
+            }
+           ]
+          },
+          "p": {
+           "a": 0,
+           "k": [
+            100,
+            100,
+            0
+           ]
+          },
+          "a": {
+           "a": 0,
+           "k": [
+            0,
+            0,
+            0
+           ]
+          },
+          "s": {
+           "a": 1,
+           "k": [
+            {
+             "t": 0,
+             "s": [
+              75,
+              75,
+              100
+             ],
+             "i": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 30,
+             "s": [
+              105,
+              105,
+              100
+             ],
+             "i": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             },
+             "o": {
+              "x": [
+               0.5,
+               0.5,
+               0.5
+              ],
+              "y": [
+               0.5,
+               0.5,
+               0.5
+              ]
+             }
+            },
+            {
+             "t": 60,
+             "s": [
+              75,
+              75,
+              100
+             ]
+            }
+           ]
+          }
+         },
+         "shapes": [
+          {
+           "ty": "gr",
+           "nm": "g",
+           "it": [
+            {
+             "ty": "sr",
+             "sy": 1,
+             "d": 1,
+             "pt": {
+              "a": 0,
+              "k": 5
+             },
+             "p": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "r": {
+              "a": 0,
+              "k": 0
+             },
+             "ir": {
+              "a": 0,
+              "k": 32
+             },
+             "is": {
+              "a": 0,
+              "k": 0
+             },
+             "or": {
+              "a": 0,
+              "k": 80
+             },
+             "os": {
+              "a": 0,
+              "k": 0
+             }
+            },
+            {
+             "ty": "gf",
+             "o": {
+              "a": 0,
+              "k": 100
+             },
+             "r": 1,
+             "g": {
+              "p": 2,
+              "k": {
+               "a": 0,
+               "k": [
+                0,
+                1,
+                0.95,
+                0.6,
+                1,
+                1,
+                0.55,
+                0.1
+               ]
+              }
+             },
+             "s": {
+              "a": 0,
+              "k": [
+               0,
+               -60
+              ]
+             },
+             "e": {
+              "a": 0,
+              "k": [
+               0,
+               60
+              ]
+             },
+             "t": 1
+            },
+            {
+             "ty": "st",
+             "c": {
+              "a": 0,
+              "k": [
+               1,
+               1,
+               1,
+               1
+              ]
+             },
+             "o": {
+              "a": 0,
+              "k": 100
+             },
+             "w": {
+              "a": 0,
+              "k": 5
+             },
+             "lc": 2,
+             "lj": 2
+            },
+            {
+             "ty": "tr",
+             "p": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "a": {
+              "a": 0,
+              "k": [
+               0,
+               0
+              ]
+             },
+             "s": {
+              "a": 0,
+              "k": [
+               100,
+               100
+              ]
+             },
+             "r": {
+              "a": 0,
+              "k": 0
+             },
+             "o": {
+              "a": 0,
+              "k": 100
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "on-le304-01",
+  "name": "Lễ 30/4 01 · MỪNG ĐẠI LỄ",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "MỪNG ĐẠI LỄ 30/4"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Hoà bình - Thống nhất - 1/5"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 30%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "hoaVan",
+    "particle": "fireworks",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "iconCorner",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "30/4",
+    "icon": "flag",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-le304-02",
+  "name": "Lễ 30/4 02 · SALE 30/4",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "SALE LỄ 30/4"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Nghỉ lễ mua sắm thả ga"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "-50%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Siêu thị ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "ribbonWave",
+    "particle": "confetti",
+    "border": "chasingMarquee",
+    "layout": "topHero",
+    "kinetic": "stampHit",
+    "subKinetic": "trackingIn",
+    "accent": "twinSparkle",
+    "textFx": "heavyStroke",
+    "subFx": "cleanBright",
+    "promoShape": "burst",
+    "badge": "SALE",
+    "icon": "flag",
+    "font": "Anton",
+    "font2": "Barlow Condensed",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-le304-03",
+  "name": "Lễ 30/4 03 · VUI LỄ 30/4 - 1/5",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Vui Lễ 30/4 - 1/5"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Mở cửa xuyên lễ"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "ƯU ĐÃI 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "starfield",
+    "particle": "fireworks",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "twinSparkle",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "30/4",
+    "icon": "star",
+    "font": "SVN-Bali Script",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ }
+]
