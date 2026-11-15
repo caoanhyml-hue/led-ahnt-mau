@@ -2922,5 +2922,284 @@
     ]
    }
   ]
+ },
+ {
+  "id": "on-le304-01",
+  "name": "Lễ 30/4 01 · MỪNG ĐẠI LỄ",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "MỪNG ĐẠI LỄ 30/4"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Hoà bình - Thống nhất - 1/5"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "GIẢM 30%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "hoaVan",
+    "particle": "fireworks",
+    "border": "goldShimmer",
+    "layout": "centerStack",
+    "kinetic": "elasticPop",
+    "subKinetic": "riseFade",
+    "accent": "iconCorner",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "burst",
+    "badge": "30/4",
+    "icon": "flag",
+    "font": "Playfair Display",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-le304-02",
+  "name": "Lễ 30/4 02 · SALE 30/4",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "SALE LỄ 30/4"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Nghỉ lễ mua sắm thả ga"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "-50%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Siêu thị ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "ribbonWave",
+    "particle": "confetti",
+    "border": "chasingMarquee",
+    "layout": "topHero",
+    "kinetic": "stampHit",
+    "subKinetic": "trackingIn",
+    "accent": "twinSparkle",
+    "textFx": "heavyStroke",
+    "subFx": "cleanBright",
+    "promoShape": "burst",
+    "badge": "SALE",
+    "icon": "flag",
+    "font": "Anton",
+    "font2": "Barlow Condensed",
+    "ms": 8000
+   }
+  ]
+ },
+ {
+  "id": "on-le304-03",
+  "name": "Lễ 30/4 03 · VUI LỄ 30/4 - 1/5",
+  "category": "Lễ 30/4",
+  "fields": [
+   {
+    "key": "headline",
+    "label": "Tiêu đề chính",
+    "type": "text",
+    "default_value": "Vui Lễ 30/4 - 1/5"
+   },
+   {
+    "key": "subheadline",
+    "label": "Dịch vụ / mặt hàng",
+    "type": "text",
+    "default_value": "Mở cửa xuyên lễ"
+   },
+   {
+    "key": "promoBadge",
+    "label": "Giá / khuyến mãi",
+    "type": "text",
+    "default_value": "ƯU ĐÃI 20%"
+   },
+   {
+    "key": "footerContact",
+    "label": "Địa chỉ / SĐT",
+    "type": "text",
+    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+   },
+   {
+    "key": "primary",
+    "type": "mocolor",
+    "default_value": "#FFE08A"
+   },
+   {
+    "key": "secondary",
+    "type": "mocolor",
+    "default_value": "#FFFFFF"
+   },
+   {
+    "key": "accent",
+    "type": "mocolor",
+    "default_value": "#FFD400"
+   },
+   {
+    "key": "bg_color",
+    "type": "mocolor",
+    "default_value": "#B3121B"
+   },
+   {
+    "key": "speed",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "density",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "glow",
+    "type": "mo",
+    "default_value": 1
+   },
+   {
+    "key": "stroke",
+    "type": "mo",
+    "default_value": 1
+   }
+  ],
+  "layers": [
+   {
+    "type": "motion",
+    "plate": false,
+    "footScene": true,
+    "bg": "starfield",
+    "particle": "fireworks",
+    "border": "thinDouble",
+    "layout": "centerStack",
+    "kinetic": "smoothZoom",
+    "subKinetic": "riseFade",
+    "accent": "twinSparkle",
+    "textFx": "goldMetal",
+    "subFx": "goldMetal",
+    "promoShape": "pill",
+    "badge": "30/4",
+    "icon": "star",
+    "font": "SVN-Bali Script",
+    "font2": "Playfair Display",
+    "ms": 8000
+   }
+  ]
  }
 ]
