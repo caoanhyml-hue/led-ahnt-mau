@@ -14,7 +14,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "An khang - Thịnh vượng"
+    "default_value": "An khang thịnh vượng"
    },
    {
     "key": "promoBadge",
@@ -73,6 +73,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "hoaVan",
     "particle": "mai",
     "border": "goldShimmer",
@@ -87,7 +88,67 @@
     "icon": "mai",
     "font": "Playfair Display",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -118,7 +179,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Mở cửa từ mùng 2 - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -165,6 +226,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "sunburst",
     "particle": "lixi",
     "border": "chasingMarquee",
@@ -198,7 +260,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Xuân sang - Lộc đến"
+    "default_value": "Xuân sang lộc đến"
    },
    {
     "key": "promoBadge",
@@ -210,7 +272,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Áp dụng đến hết mùng 10 Tết"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -257,7 +319,8 @@
    {
     "type": "motion",
     "plate": false,
-    "bg": "velvetWave",
+    "footScene": true,
+    "bg": "hoaVan",
     "particle": "dao",
     "border": "thinDouble",
     "layout": "centerFrame",
@@ -271,7 +334,67 @@
     "icon": "mai",
     "font": "Playfair Display",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -290,7 +413,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Nhận đặt mâm cỗ, giỏ quà Tết"
+    "default_value": "Đặt mâm cỗ, giỏ quà"
    },
    {
     "key": "promoBadge",
@@ -302,7 +425,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Đặt hàng: 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -349,21 +472,82 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "hoaVan",
-    "particle": "fireworks",
+    "particle": "lixi",
     "border": "studdedFrame",
-    "layout": "splitLeft",
+    "layout": "centerStack",
     "kinetic": "dropBounce",
-    "subKinetic": "trackingIn",
-    "accent": "iconCorner",
+    "subKinetic": "riseFade",
+    "accent": "phaoDay",
     "textFx": "goldMetal",
     "subFx": "goldMetal",
     "promoShape": "hex",
     "badge": "QUÀ",
     "icon": "lixi",
-    "font": "Playfair Display",
+    "font": "Anton",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -394,7 +578,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -441,6 +625,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "starfield",
     "particle": "fireworks",
     "border": "dualNeonPulse",
@@ -455,7 +640,67 @@
     "icon": "star",
     "font": "Playfair Display",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "headline": [
+      0.04,
+      0.04,
+      0.92,
+      0.42
+     ],
+     "subheadline": [
+      0.22,
+      0.49,
+      0.56,
+      0.14
+     ],
+     "promoBadge": [
+      0.3,
+      0.68,
+      0.4,
+      0.18
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -468,13 +713,13 @@
     "key": "headline",
     "label": "Tiêu đề chính",
     "type": "text",
-    "default_value": "XUÂN ĐINH MÙI 2027"
+    "default_value": "XUÂN ĐINH MÙI"
    },
    {
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Dê vàng mang lộc đến nhà"
+    "default_value": "Dê vàng mang lộc"
    },
    {
     "key": "promoBadge",
@@ -533,10 +778,11 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "hoaVan",
     "particle": "mai",
     "border": "goldShimmer",
-    "layout": "centerStack",
+    "layout": "topHero",
     "kinetic": "elasticPop",
     "subKinetic": "riseFade",
     "accent": "linhVat",
@@ -547,7 +793,67 @@
     "icon": "de",
     "font": "Playfair Display",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "headline": [
+      0.04,
+      0.04,
+      0.92,
+      0.42
+     ],
+     "subheadline": [
+      0.22,
+      0.49,
+      0.56,
+      0.14
+     ],
+     "promoBadge": [
+      0.3,
+      0.68,
+      0.4,
+      0.18
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -625,6 +931,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "footColor": "#B3121B",
     "bg": "redSnow",
     "particle": "flakes",
@@ -640,7 +947,67 @@
     "icon": "thong",
     "font": "SVN-Dancing script",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -659,7 +1026,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Quà tặng cho mọi đơn hàng"
+    "default_value": "Quà cho mọi đơn"
    },
    {
     "key": "promoBadge",
@@ -671,7 +1038,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Từ 20 - 25/12 - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -718,6 +1085,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "footColor": "#0B1E3F",
     "bg": "snowNight",
     "particle": "flakes",
@@ -733,7 +1101,67 @@
     "icon": "gift",
     "font": "Playfair Display",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -764,7 +1192,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Đặt bàn: 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -811,7 +1239,8 @@
    {
     "type": "motion",
     "plate": false,
-    "bg": "velvetWave",
+    "footScene": true,
+    "bg": "snowNight",
     "particle": "flakes",
     "border": "thinDouble",
     "layout": "centerStack",
@@ -825,7 +1254,67 @@
     "icon": "cake",
     "font": "SVN-Dancing script",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -844,7 +1333,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Duy nhất 24 - 25/12"
+    "default_value": "Chỉ 24 - 25/12"
    },
    {
     "key": "promoBadge",
@@ -856,7 +1345,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -903,6 +1392,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "redSnow",
     "particle": "flakes",
     "border": "rainbowChase",
@@ -917,7 +1407,67 @@
     "icon": "percent",
     "font": "Anton",
     "font2": "Barlow Condensed",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -936,7 +1486,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Chào năm mới 2027"
+    "default_value": "Chào năm 2027"
    },
    {
     "key": "promoBadge",
@@ -995,6 +1545,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "bg": "starfield",
     "particle": "fireworks",
     "border": "goldShimmer",
@@ -1007,9 +1558,69 @@
     "promoShape": "pill",
     "badge": "2027",
     "icon": "star",
-    "font": "SVN-Bali Script",
+    "font": "SVN-Dancing script",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1028,7 +1639,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Chúc mừng Giáng sinh"
+    "default_value": "Mừng Giáng sinh"
    },
    {
     "key": "promoBadge",
@@ -1087,6 +1698,7 @@
    {
     "type": "motion",
     "plate": false,
+    "footScene": true,
     "footColor": "#FFFFFF",
     "bg": "redSnow",
     "particle": "flakes",
@@ -1100,9 +1712,69 @@
     "promoShape": "pill",
     "badge": "NOEL",
     "icon": "thong",
-    "font": "SVN-Bali Script",
+    "font": "SVN-Dancing script",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1121,7 +1793,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Trăng tròn - Sum vầy"
+    "default_value": "Trăng tròn sum vầy"
    },
    {
     "key": "promoBadge",
@@ -1133,7 +1805,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1181,7 +1853,7 @@
     "type": "motion",
     "plate": false,
     "footScene": true,
-    "bg": "starfield",
+    "bg": "moonGlow",
     "particle": "stardust",
     "border": "goldShimmer",
     "layout": "centerStack",
@@ -1195,7 +1867,67 @@
     "icon": "lantern",
     "font": "Playfair Display",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1214,7 +1946,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Nhận đặt bánh nướng - bánh dẻo"
+    "default_value": "Bánh nướng - Bánh dẻo"
    },
    {
     "key": "promoBadge",
@@ -1226,7 +1958,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Tiệm bánh ABC - Đặt bánh: 0909.xxx.xxx"
+    "default_value": "Tiệm bánh ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1288,7 +2020,67 @@
     "icon": "cake",
     "font": "Anton",
     "font2": "Be Vietnam Pro",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1307,7 +2099,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Rước đèn - Phá cỗ đêm rằm"
+    "default_value": "Rước đèn phá cỗ"
    },
    {
     "key": "promoBadge",
@@ -1319,7 +2111,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Shop đồ chơi ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1381,7 +2173,67 @@
     "icon": "teddy",
     "font": "SVN-Dancing script",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1400,7 +2252,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Quà biếu sang trọng - in logo theo yêu cầu"
+    "default_value": "In logo theo yêu cầu"
    },
    {
     "key": "promoBadge",
@@ -1412,7 +2264,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Quà tặng ABC - Đặt quà: 0909.xxx.xxx"
+    "default_value": "Quà tặng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1474,7 +2326,67 @@
     "icon": "gift",
     "font": "Playfair Display",
     "font2": "Be Vietnam Pro",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1493,7 +2405,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Trăng sáng - Đèn hồng"
+    "default_value": "Trăng sáng đèn hồng"
    },
    {
     "key": "promoBadge",
@@ -1505,7 +2417,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1553,21 +2465,81 @@
     "type": "motion",
     "plate": false,
     "footScene": true,
-    "bg": "ringsPulse",
+    "bg": "moonGlow",
     "particle": "stardust",
     "border": "dualNeonPulse",
     "layout": "topHero",
     "kinetic": "shimmerPulse",
     "subKinetic": "riseFade",
     "accent": "lanterns",
-    "textFx": "neonGlow",
+    "textFx": "goldMetal",
     "subFx": "goldMetal",
     "promoShape": "burst",
     "badge": "15/8",
     "icon": "lantern",
-    "font": "Montserrat",
+    "font": "Playfair Display",
     "font2": "Be Vietnam Pro",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1586,7 +2558,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Chúc gia đình sum họp, ấm no"
+    "default_value": "Sum họp ấm no"
    },
    {
     "key": "promoBadge",
@@ -1598,7 +2570,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1658,9 +2630,69 @@
     "promoShape": "pill",
     "badge": "RẰM",
     "icon": "star",
-    "font": "SVN-Bali Script",
+    "font": "SVN-Dancing script",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1679,7 +2711,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Duy nhất đêm rằm"
+    "default_value": "Chỉ đêm rằm"
    },
    {
     "key": "promoBadge",
@@ -1691,7 +2723,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Siêu thị ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Siêu thị ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1753,7 +2785,67 @@
     "icon": "percent",
     "font": "Anton",
     "font2": "Barlow Condensed",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1772,7 +2864,7 @@
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Văn nghệ - Múa lân - Phát quà"
+    "default_value": "Múa lân - Phát quà"
    },
    {
     "key": "promoBadge",
@@ -1784,7 +2876,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Nhà văn hoá khu phố - Tối 15/8 - Sân chính"
+    "default_value": "Nhà văn hoá - Tối 15/8"
    },
    {
     "key": "primary",
@@ -1834,7 +2926,7 @@
     "footScene": true,
     "bg": "spotlights",
     "particle": "fireworks",
-    "border": "rainbowChase",
+    "border": "goldShimmer",
     "layout": "centerStack",
     "kinetic": "waveBounce",
     "subKinetic": "riseFade",
@@ -1846,7 +2938,67 @@
     "icon": "music",
     "font": "Anton",
     "font2": "Montserrat",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1859,13 +3011,13 @@
     "key": "headline",
     "label": "Tiêu đề chính",
     "type": "text",
-    "default_value": "BÁNH NƯỚNG - BÁNH DẺO"
+    "default_value": "BÁNH NƯỚNG BÁNH DẺO"
    },
    {
     "key": "subheadline",
     "label": "Dịch vụ / mặt hàng",
     "type": "text",
-    "default_value": "Thập cẩm, đậu xanh, sen nhuyễn"
+    "default_value": "Thập cẩm - Đậu xanh"
    },
    {
     "key": "promoBadge",
@@ -1877,7 +3029,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Tiệm bánh ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Tiệm bánh ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -1939,7 +3091,67 @@
     "icon": "cake",
     "font": "Playfair Display",
     "font2": "Be Vietnam Pro",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -1970,7 +3182,7 @@
     "key": "footerContact",
     "label": "Địa chỉ / SĐT",
     "type": "text",
-    "default_value": "Cửa hàng ABC - 123 Đường Lê Lợi - 0909.xxx.xxx"
+    "default_value": "Cửa hàng ABC - 0909.xxx.xxx"
    },
    {
     "key": "primary",
@@ -2032,7 +3244,67 @@
     "icon": "lantern",
     "font": "SVN-Dancing script",
     "font2": "Playfair Display",
-    "ms": 8000
+    "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    }
    }
   ]
  },
@@ -2126,11 +3398,71 @@
     "font": "Playfair Display",
     "font2": "Playfair Display",
     "ms": 8000,
+    "layoutData": {
+     "subheadline": [
+      0.2,
+      0.05,
+      0.6,
+      0.17
+     ],
+     "headline": [
+      0.04,
+      0.27,
+      0.92,
+      0.44
+     ],
+     "promoBadge": [
+      0.24,
+      0.75,
+      0.52,
+      0.19
+     ],
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
+    },
     "sprites": [
      {
       "place": "top2",
       "anim": "swing",
-      "size": 0.42,
+      "size": 0.3,
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 260\"><defs><radialGradient id=\"g\" cx=\"50%\" cy=\"45%\" r=\"60%\"><stop offset=\"0\" stop-color=\"#FFE27A\"/><stop offset=\".55\" stop-color=\"#FF4A2E\"/><stop offset=\"1\" stop-color=\"#C0101A\"/></radialGradient></defs><path d=\"M100 0v40\" stroke=\"#8B5A2B\" stroke-width=\"5\"/><path d=\"M100 40 122 92 178 96 135 132 150 186 100 156 50 186 65 132 22 96 78 92Z\" fill=\"url(#g)\" stroke=\"#FFD34D\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M100 40v116M22 96l113 36M178 96 65 132M50 186l50-30 50 30\" stroke=\"#FFD34D\" stroke-width=\"2.5\" opacity=\".7\" fill=\"none\"/><circle cx=\"100\" cy=\"112\" r=\"14\" fill=\"#FFF3B0\" opacity=\".9\"/><path d=\"M50 186l-8 40M150 186l8 40\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M36 226h12l-6 30zM152 226h12l-6 30z\" fill=\"#E3121B\"/><path d=\"M100 156v30\" stroke=\"#FFD34D\" stroke-width=\"3\"/><path d=\"M93 186h14l-7 34z\" fill=\"#E3121B\"/></svg>"
      },
      {
@@ -2293,29 +3625,63 @@
     },
     "layoutData": {
      "headline": [
-      0.08,
-      0.3,
-      0.84,
-      0.3
+      0.04,
+      0.27,
+      0.92,
+      0.44
      ],
      "subheadline": [
-      0.15,
-      0.08,
-      0.7,
-      0.16
+      0.2,
+      0.05,
+      0.6,
+      0.17
      ],
      "promoBadge": [
-      0.32,
-      0.64,
-      0.36,
-      0.14
+      0.24,
+      0.75,
+      0.52,
+      0.19
      ],
-     "footerContact": [
-      0.06,
-      0.84,
-      0.88,
-      0.09
-     ]
+     "tall": {
+      "subheadline": [
+       0.1,
+       0.1,
+       0.8,
+       0.07
+      ],
+      "headline": [
+       0.08,
+       0.2,
+       0.84,
+       0.3
+      ],
+      "promoBadge": [
+       0.2,
+       0.6,
+       0.6,
+       0.14
+      ]
+     },
+     "wide": {
+      "subheadline": [
+       0.03,
+       0.09,
+       0.94,
+       0.16
+      ],
+      "headline": [
+       0.03,
+       0.26,
+       0.66,
+       0.52
+      ],
+      "promoBadge": [
+       0.71,
+       0.3,
+       0.26,
+       0.44
+      ]
+     }
     },
     "bgData": {
      "colors": [
